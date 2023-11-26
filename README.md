@@ -1,3 +1,7 @@
+# Project status: Deprecated
+
+⚠️ Since there is a fetch API in browsers as well as in node, this package is deprecated. Please switch to the internal fetch API: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch>.
+
 ## get-json
 
 Cross-platform library for getting JSON documents. Wraps [request](http://npmjs.org/request) on Node, fallsback to [JSONP](http://github.com/webmodules/jsonp) on browsers.
