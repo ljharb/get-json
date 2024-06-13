@@ -14,7 +14,7 @@
   "devDependencies": {
     "prova": "azer/prova"
   },
-  "repository": "github:zeke/get-json",
+  "repository": "github:ljharb/get-json",
   "author": "azer",
   "license": "BSD"
 }
