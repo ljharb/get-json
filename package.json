@@ -12,7 +12,7 @@
     "phin": "^2.9.3"
   },
   "devDependencies": {
-    "prova": "azer/prova"
+    "tape": "^5.7.5"
   },
   "repository": "github:ljharb/get-json",
   "author": "azer",
