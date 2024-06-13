@@ -1,2 +1,15 @@
+# Rules from: /Users/ljharb/Dropbox/git/ljharb/get-json.git/.gitignore
+# gitignore
+
+node_modules
+npm-debug.log
+package-lock.json
+
+.npmignore
+
+
+# npmignore - content above this line is automatically generated and modifications may be omitted
+# see npmjs.com/npmignore for more details.
+.github/workflows
 test
-test.js
+.eslintrc

@@ -5,6 +5,7 @@
 	"main": "./lib/node.js",
 	"browser": "./lib/browser.js",
 	"scripts": {
+		"prepack": "npmignore --auto",
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
 		"tests-only": "tape 'test/**/*.js'",
@@ -19,9 +20,17 @@
 		"@ljharb/eslint-config": "^21.1.1",
 		"aud": "^2.0.4",
 		"eslint": "=8.8.0",
+		"npmignore": "^0.3.1",
 		"tape": "^5.7.5"
 	},
 	"repository": "github:ljharb/get-json",
 	"author": "azer",
-	"license": "BSD"
+	"license": "BSD",
+	"publishConfig": {
+		"ignore": [
+			".github/workflows",
+			"test",
+			".eslintrc"
+		]
+	}
 }
