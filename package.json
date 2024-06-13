@@ -8,8 +8,8 @@
     "test": "node test"
   },
   "dependencies": {
-    "jsonp": "0.0.4",
-    "phin": "^2.2.6"
+    "jsonp": "^0.2.1",
+    "phin": "^2.9.3"
   },
   "devDependencies": {
     "prova": "azer/prova"
