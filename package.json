@@ -2,12 +2,12 @@
   "name": "get-json",
   "version": "1.0.1",
   "description": "Cross-platform library for getting JSON docs",
-  "main": "index.js",
+  "main": "./lib/node.js",
+  "browser": "./lib/browser.js",
   "scripts": {
     "test": "node test"
   },
   "dependencies": {
-    "is-node": "0.0.0",
     "jsonp": "0.0.4",
     "phin": "^2.2.6"
   },
