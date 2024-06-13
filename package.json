@@ -1,20 +1,24 @@
 {
-  "name": "get-json",
-  "version": "1.0.1",
-  "description": "Cross-platform library for getting JSON docs",
-  "main": "./lib/node.js",
-  "browser": "./lib/browser.js",
-  "scripts": {
-    "test": "node test"
-  },
-  "dependencies": {
-    "jsonp": "^0.2.1",
-    "phin": "^2.9.3"
-  },
-  "devDependencies": {
-    "tape": "^5.7.5"
-  },
-  "repository": "github:ljharb/get-json",
-  "author": "azer",
-  "license": "BSD"
+	"name": "get-json",
+	"version": "1.0.1",
+	"description": "Cross-platform library for getting JSON docs",
+	"main": "./lib/node.js",
+	"browser": "./lib/browser.js",
+	"scripts": {
+		"lint": "eslint --ext=js,mjs .",
+		"pretest": "npm run lint",
+		"test": "node test"
+	},
+	"dependencies": {
+		"jsonp": "^0.2.1",
+		"phin": "^2.9.3"
+	},
+	"devDependencies": {
+		"@ljharb/eslint-config": "^21.1.1",
+		"eslint": "=8.8.0",
+		"tape": "^5.7.5"
+	},
+	"repository": "github:ljharb/get-json",
+	"author": "azer",
+	"license": "BSD"
 }
