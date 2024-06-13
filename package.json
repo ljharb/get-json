@@ -10,7 +10,9 @@
 		"pretest": "npm run lint",
 		"tests-only": "tape 'test/**/*.js'",
 		"test": "npm run tests-only",
-		"posttest": "aud --production"
+		"posttest": "aud --production",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"dependencies": {
 		"jsonp": "^0.2.1",
@@ -19,13 +21,25 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
 		"aud": "^2.0.4",
+		"auto-changelog": "^2.4.0",
 		"eslint": "=8.8.0",
 		"npmignore": "^0.3.1",
 		"tape": "^5.7.5"
 	},
-	"repository": "github:ljharb/get-json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/get-json.git"
+	},
 	"author": "azer",
 	"license": "BSD",
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
+	},
 	"publishConfig": {
 		"ignore": [
 			".github/workflows",
