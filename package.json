@@ -60,5 +60,8 @@
 			"test",
 			".eslintrc"
 		]
+	},
+	"engines": {
+		"node": ">= 0.4"
 	}
 }
