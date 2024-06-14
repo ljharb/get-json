@@ -24,7 +24,7 @@
 		"getJSON"
 	],
 	"author": "azer",
-	"license": "BSD",
+	"license": "BSD-3-Clause",
 	"bugs": {
 		"url": "https://github.com/ljharb/get-json/issues"
 	},
