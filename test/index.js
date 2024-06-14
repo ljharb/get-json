@@ -1,5 +1,8 @@
 'use strict';
 
+require('es5-shim');
+require('es6-shim');
+
 var test = require('tape');
 var json = require('../');
 
