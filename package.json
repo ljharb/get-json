@@ -41,7 +41,7 @@
 		"es6-shim": "^0.35.8",
 		"eslint": "=8.8.0",
 		"npmignore": "^0.3.1",
-		"tape": "^5.7.5"
+		"tape": "^5.8.0"
 	},
 	"testling": {
 		"files": "test/index.js"
