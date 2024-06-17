@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/ljharb/get-json/compare/v1.0.2...v1.1.0) - 2024-06-16
+
+### Commits
+
+- [Refactor] replace `phin` with a simplified inlined version [`c649fb5`](https://github.com/ljharb/get-json/commit/c649fb5da34e916343351e1e2b37b1aa14babc2e)
+- [Refactor] reject earlier when the URL is not a string [`f2d9797`](https://github.com/ljharb/get-json/commit/f2d9797be414aed423add8fa1380b604466d2130)
+- [meta] delete npmignore file [`acb9430`](https://github.com/ljharb/get-json/commit/acb9430fb169868383c4246ee4097ffaa2938fe2)
+- [Dev Deps] update `tape` [`240fc6e`](https://github.com/ljharb/get-json/commit/240fc6ea74cae93c8e8b280f6b2e8530001ebe2f)
+
 ## [v1.0.2](https://github.com/ljharb/get-json/compare/v1.0.1...v1.0.2) - 2024-06-14
 
 ### Merged
