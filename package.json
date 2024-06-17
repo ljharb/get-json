@@ -31,7 +31,8 @@
 	"homepage": "https://github.com/ljharb/get-json#readme",
 	"dependencies": {
 		"jsonp": "^0.2.1",
-		"phin": "^2.9.3"
+		"safe-buffer": "^5.2.1",
+		"safe-regex-test": "^1.0.3"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",

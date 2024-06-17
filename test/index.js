@@ -37,7 +37,7 @@ test('Get IP from JSONTest API', function (t) {
 	t.plan(2);
 
 	getJSON('http://ip.jsontest.com/', function (error, body) {
-		t.error(error);
+		t.error(error, 'is not an error');
 		t.ok(body.ip);
 	});
 });

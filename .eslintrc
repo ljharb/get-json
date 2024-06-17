@@ -7,5 +7,6 @@
 		"callback-return": 0,
 		"eqeqeq": 1,
 		"no-underscore-dangle": 0,
+		"prefer-promise-reject-errors": 0,
 	},
 }
